@@ -1,0 +1,136 @@
+/* header  */
+#headerbar {
+    background-color: black;
+    color: white;
+    text-align: end;
+}
+
+#headerbar h3 {
+    margin-right: 15px;
+}
+
+.fa-search {
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    margin-left: 10px;
+}
+
+.fa-search:hover {
+    cursor: pointer;
+}
+
+/* jumbotron */
+#jumbotron {
+    color: white;
+}
+
+#jumbotron .container-fluid{
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-jumbotron{
+    height: 700px;
+}
+
+.container-jumbotron .row {
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 650px;
+    gap: 20px;
+}
+
+.container-jumbotron img{
+    width: 350px;
+}
+
+.orange {
+    background-color: #cd3d0f;
+}
+
+.container-jumbotron_dw .row {
+    margin: 50px 0;
+}
+
+.contenuto {
+    height: auto;
+    width: auto;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contenuto img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.container-jumbotron_dw img:hover { 
+    border: 2px solid #2d64e6;
+}
+
+/* ecco la playstation 5 */
+#playstastion .title{
+    text-align: center;
+}
+
+#playstastion h4 {
+    color: #0072ce;
+}
+
+#playstastion h3 {
+    color: #c8c8c8;
+    margin-bottom: 50px;
+}
+
+.blue {
+    background-color: #2d64e6;
+}
+
+#playstastion img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.margin_text{
+    margin: 20px 0;
+}
+
+.opacity {
+    opacity: 0.6;
+}
+
+.opacity:hover {
+    opacity: 1;
+}
+
+.border_nav {
+    border-bottom: 2px solid #2d64e6;
+}
+
+/* it_takes_two */
+#it_takes_two {
+    color: white;
+    margin-top: 50px;
+}
+
+#it_takes_two .container-fluid {
+        background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+@media all and (max-width: 992px) {
+    .text_description {
+        display: none;
+    }
+}
