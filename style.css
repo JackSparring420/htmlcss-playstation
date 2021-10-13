@@ -20,6 +20,15 @@
     cursor: pointer;
 }
 
+/* prove notturne */
+/* .navbar-expand-lg .navbar-nav .dropdown-menu {
+    width: 99.66vw;
+    width: 100%;
+    left: -90px;
+    dai un id a tutti gli ul, posizionateli e poi buttaci dentro fli elementi cambiando la firezione al flex. le img da mettere te le trovi
+} */
+
+
 /* jumbotron */
 #jumbotron {
     color: white;
@@ -33,6 +42,7 @@
 
 .container-jumbotron{
     height: 700px;
+    padding: 30px;
 }
 
 .container-jumbotron .row {
@@ -49,18 +59,28 @@
 .orange {
     background-color: #cd3d0f;
 }
+.container-jumbotron_dw{
+    background-image: none !important;
+}
 
 .container-jumbotron_dw .row {
-    margin: 50px 0;
+    margin-bottom: 50px;
+    padding: 30px;
+    background-image: none;
 }
 
 .contenuto {
     height: auto;
     width: auto;
-    margin-bottom: 25px;
     border-radius: 10px;
     text-align: center;
+    padding: 1px;
 }
+
+#jumbotron .contenuto {
+    margin-bottom: 25px;
+}
+
 
 .contenuto img {
     object-fit: contain;
@@ -70,12 +90,16 @@
     
 }
 
-.container-jumbotron_dw img:hover { 
+.container-jumbotron_dw .contenuto:hover { 
     border: 2px solid #2d64e6;
 }
 
 /* ecco la playstation 5 */
-#playstastion .title{
+#playstastion {
+    padding: 30px;
+}
+
+#playstastion .title {
     text-align: center;
 }
 
@@ -122,15 +146,88 @@
 }
 
 #it_takes_two .container-fluid {
-        background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
-        background-size: cover;
-        background-position: center;
-    }
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
 }
 
+/* nuove uscite */
+#uscite {
+    color: white;
+    background-color: #1f1f1f;
+    padding: 30px;
+}
+
+#uscite .contenuto{
+    margin-bottom: 25px;
+}
+
+/* play4 */
+#play4 {
+    padding: 30px;
+}
+
+#play4 .title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#play4 h4 {
+    color: #0072ce;
+}
+
+#play4 h3 {
+    color: #c8c8c8;
+    margin-bottom: 50px;
+}
+
+.regidtred {
+    font-size: 10px;
+    position: relative;
+    top: -15px;
+    left: -10px;
+}
+
+.contenuto h3 {
+    text-align: left;
+}
+
+/* playstation plus */
+#plus {
+    background-color: #bebcbb;
+    margin-top: 60px;
+}
+
+.pading_container {
+    padding: 0 30px;
+}
+
+.text_blue {
+    color: #2d64e6;
+    background-color: #d9dadc;
+    border: hidden;
+}
+.text_margin {
+ margin: 50px 0;
+}
 
 @media all and (max-width: 992px) {
     .text_description {
         display: none;
+    }
+
+    .text_margin {
+        margin: 15px 0;
+       }
+}
+
+@media all and (max-width: 769px) {
+    .img_hidden {
+        display: none;
+    }
+
+    .pading_container {
+        padding: 40px 30px;
     }
 }
