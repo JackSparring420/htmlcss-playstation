@@ -10,8 +10,12 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div id="headerbar"><h3>SONY</h3></div>
+    <header class="fixed-top">
+        <div id="headerbar" class="row justify-content-end">
+            <div class="col-4 contenuto">
+                <img src="img/sony_logo.svg" alt="sony_logo">
+            </div>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt=""></a>
@@ -104,7 +108,10 @@
                             <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
                         </li>
                         <li>
-                            <i class="fas fa-search"></i>
+                            <div class="lens">
+                                <hr class="divider_hidden">
+                                <img src="img/lens.svg" alt="lens">
+                            </div>
                         </li>
                     </ul>
                 </form>
@@ -190,13 +197,13 @@
                     <div class="col">
                         <div class="contenuto opacity">
                             <img src="img/joypad-thumb.png" alt="joypad">
-                            <div class="text_description">Controller wireless DualSense</div>
+                            <div class="text_description">Controller wireless DualSense&trade;</div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="contenuto opacity">
                             <img src="img/headset-thumb.png" alt="headset">
-                            <div class="text_description">Cufie wireless con microfono PLUSE 3</div>
+                            <div class="text_description">Cufie wireless con microfono PLUSE 3&trade;</div>
                         </div>
                         
                     </div>
@@ -297,10 +304,11 @@
                 </div>
             </div>
         </section>
+        <!-- playstation 4 -->
         <section id="play4">
             <div class="container-fluid">
                 <div class="title">
-                    <h1>Esplora PlayStastion <span class="regidtred"><i class="far fa-registered"></i></span></i>4</h1>
+                    <h1>Esplora PlayStastion <span class="registred">&reg;</span>4</h1>
                     <h3> Tuffati in nuove possibilità di gioco completamente inaspettate</h3>
                 </div>
                 <div class="row row-cols-1 row-cols-md-3">
@@ -350,6 +358,148 @@
                 </div>
             </div>
         </section>
+        <!-- nuovi sconti -->
+        <section id="sconti">
+            <div class="container-fluid">
+                <div class="title">
+                    <h1>Nuovi sconti sul PlayStation Store</h1>
+                    <h3>Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.</h3>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col">
+                        <div class="contenuto">
+                            <img src="img/playstation-store-games-under-20-spotlight.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contenuto">
+                            <img src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contenuto">
+                            <img src="img/playstation-store-free-to-play-spotlight.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- playstation now  -->
+         <section id="now">
+            <div class="pading_container">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col align-self-center">
+                        <div class="contenuto">
+                            <img src="img/ps-now-logo-two-column.png" alt="ps-now">
+                        </div>
+                        <div class="text_margin">
+                            Migliora la tua esperienza PlayStation con l'acesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.
+                        </div>
+                        <div><button type="button" class="btn btn-light rounded-pill text_blue">Esplora PlayStation Plus</button></div>
+                    </div>
+                    <div class="col">
+                        <div class="contenuto img_hidden">
+                            <img src="img/ps-now-april-featured-image-block.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- seguici sui media -->
+        <section id="follow">
+            <div class="container">
+                <div class="title">
+                    <h1>Seguici sui social media</h1>
+                </div>
+                <div class="row row-cols-2 row-cols-sm-4">
+                    <div class="col">
+                        <div class="contenuto">
+                            <img src="img/twitter.jpg" alt="twitter">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contenuto">
+                            <img src="img/facebook.jpg" alt="facebook">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contenuto">
+                            <img src="img/instagram.jpg" alt="instagram">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="contenuto">
+                            <img src="img/youtube.png" alt="youtube">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col">
+                            <div>
+                                <div class="contenuto size_logo">
+                                    <img src="img/ps-footer.svg" alt="play_logo">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="contenuto globe">
+                                    <img src="img/language-globe.svg" alt="language-globe">
+                                </div>
+                                <span>Country / Region: Italy</span> 
+                            </div>
+                        
+                    </div>
+                    <div class="col">
+                        <div class="row row-cols-1 row-cols-md-3 ">
+                            <div class="col">
+                                <ul>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                    <li><a href="#">Link footer n</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- parte sotto footer  -->
+                <div>
+                    <div class="row row-cols-1 row-cols-lg-2 footer_dw">
+                        <div class="col">
+                            <div class="contenuto size_logo ">
+                                <img src="img/sie-logo.svg" alt="sie_logo">
+                            </div>
+                            <p>
+                                Website &#169;2021 Sony interactive Entertainment Europe Limited: Tutti i contenuti, Nomi, dei giochi, nomi commerciali e/o marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi propietari. tutti i diritti riservati.
+                                <a href="#">Maggiori info</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
