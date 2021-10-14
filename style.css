@@ -54,13 +54,39 @@ header button {
     margin: 0 15px;
 }
 
-/* prove notturne */
-/* .navbar-expand-lg .navbar-nav .dropdown-menu {
-    width: 99.66vw;
+header .dropdown {
+ position: unset;
+}
+
+.menu_nav {
     width: 100%;
-    left: -90px;
-    dai un id a tutti gli ul, posizionateli e poi buttaci dentro fli elementi cambiando la firezione al flex. le img da mettere te le trovi
-} */
+    text-align: center;
+    top: 70px !important;
+}
+
+.dropdown_relative {
+    position: relative !important;
+}
+
+.menu_nav li {
+    display: inline-block;
+}
+
+.lista_sotto {
+    text-align: center;
+}
+
+.lista_sotto a {
+        color: black;
+        text-decoration: none;
+    }
+.pallino {
+    color: #0072ce;
+    font-size: 30px;
+    margin: 0 10px;
+    position: relative;
+    top: 5px;
+}
 
 main {
     font-family: Arial, Helvetica, sans-serif;
@@ -71,13 +97,13 @@ main {
     color: white;
 }
 
-#jumbotron .container-fluid{
+#jumbotron .container-fluid {
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
 }
 
-.container-jumbotron{
+.container-jumbotron {
     height: 700px;
     padding: 30px;
 }
@@ -96,6 +122,7 @@ main {
 .orange {
     background-color: #cd3d0f;
 }
+
 .container-jumbotron_dw{
     background-image: none !important;
 }
@@ -197,7 +224,7 @@ main {
     padding: 30px;
 }
 
-#uscite .contenuto{
+#uscite .contenuto {
     margin-bottom: 25px;
 }
 
@@ -250,8 +277,9 @@ main {
     background-color: #d9dadc;
     border: hidden;
 }
+
 .text_margin {
- margin: 50px 0;
+ margin: 55px 0;
 }
 
 /* nuovi sconti */
@@ -264,23 +292,7 @@ main {
 /* playstation now */
 #now {
     background-color: #161c3b;
-}
-
-@media all and (max-width: 992px) {
-    .text_description {
-        display: none;
-    }
-
-    .text_margin {
-        margin: 15px 0;
-       }
-
-    .divider_hidden {
-        display: block;
-        width: 200px;
-        position: relative;
-        left: -13px;
-    }
+    color: white;
 }
 
 /* footer */
@@ -314,6 +326,29 @@ footer a {
 
 .footer_dw {
     margin-top: 50px;
+}
+
+.sottolineato {
+    text-decoration: underline;
+}
+
+
+
+@media all and (max-width: 992px) {
+    .text_description {
+        display: none;
+    }
+
+    .text_margin {
+        margin: 15px 0;
+       }
+
+    .divider_hidden {
+        display: block;
+        width: 200px;
+        position: relative;
+        left: -13px;
+    }
 }
 
 @media all and (max-width: 769px) {
