@@ -2,7 +2,6 @@
 header {
     font-family: Helvetica, sans-serif;
 }
-/* cambiare container con container-lg e container-fluid */
 #headerbar {
     background-color: black;
     color: white;
@@ -292,6 +291,10 @@ main {
 /* media */
 #follow {
     padding: 50px 100px;
+}
+
+#follow .row {
+    margin: 0 100px;
 }
 
 /* footer */
