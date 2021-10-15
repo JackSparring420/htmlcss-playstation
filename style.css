@@ -49,8 +49,15 @@ header .navbar-light .navbar-nav .nav-link {
     color: black;
 }
 
-header button {
+#container-button-nav{
+    background-color: #212529;
+    border-radius: 50rem;
+    padding: 3px 5px;
     margin: 0 15px;
+}
+
+header button:hover {
+    border: solid 2px white !important;
 }
 
 header .dropdown {
@@ -120,6 +127,22 @@ main {
 
 .orange {
     background-color: #cd3d0f;
+    border-color: #cd3d0f;
+}
+
+.button-jumbo {
+    background-color: #cd3d0f;
+    border-radius: 50rem;
+    padding: 3px 5px;
+    width: 120px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.orange:hover {
+    border: solid 2px black;
+    background-color: #cd3d0f;
+    
 }
 
 .container-jumbotron-dwn {
@@ -176,6 +199,22 @@ main {
 
 .blue {
     background-color: #2d64e6;
+    border-color: #2d64e6;
+}
+
+.button-blue {
+    background-color: #2d64e6;
+    border-radius: 50rem;
+    padding: 3px 5px;
+    width: 185px;
+    text-align: center;
+    box-sizing: content-box;
+
+}
+
+.blue:hover {
+    background-color: #2d64e6;
+    border: 2px solid white;
 }
 
 #playstastion img {
@@ -230,6 +269,14 @@ main {
     padding: 30px;
 }
 
+#play4 .contenuto {
+    text-align: start;
+}
+
+#play4 .button-blue {
+    width: 120px;
+}
+
 .title{
     text-align: center;
     margin-top: 50px;
@@ -265,10 +312,16 @@ main {
     margin-top: 60px;
 }
 
-.text_blue {
+.button_text_blue {
     color: #2d64e6;
     background-color: #d9dadc;
     border: hidden;
+}
+
+.button_text_blue:hover {
+    color: #2d64e6;
+    background-color: #d9dadc;
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
 .text_margin {
@@ -286,6 +339,18 @@ main {
 #now {
     background-color: #161c3b;
     color: white;
+}
+
+.button-now {
+    background-color: #f8f9fa;
+    width: 205px;
+    padding: 3px 5px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.button_text_black:hover {
+    border: 2px solid black;
 }
 
 /* media */
@@ -354,7 +419,6 @@ footer a {
 
     .nav-button {
         width: 20vw;
-        margin-left: 0;
     }
 
     #follow .row {
