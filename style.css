@@ -2,7 +2,7 @@
 header {
     font-family: Helvetica, sans-serif;
 }
-
+/* cambiare container con container-lg e container-fluid */
 #headerbar {
     background-color: black;
     color: white;
@@ -105,7 +105,7 @@ main {
 
 .container-jumbotron-up {
     height: 700px;
-    padding: 30px 0;
+    padding: 30px;
 }
 
 .container-jumbotron-up .row {
@@ -129,7 +129,7 @@ main {
 
 .container-jumbotron-dwn .row {
     margin-bottom: 50px;
-    padding: 30px 0;
+    padding: 30px;
     background-image: none;
 }
 
@@ -159,7 +159,7 @@ main {
 
 /* ecco la playstation 5 */
 #playstastion {
-    padding: 30px 0;
+    padding: 30px;
 }
 
 #playstastion .title {
@@ -212,7 +212,7 @@ main {
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
-    padding: 30px 0;
+    padding: 30px;
 }
 
 /* nuove uscite */
@@ -228,7 +228,7 @@ main {
 
 /* play4 */
 #play4 {
-    padding: 30px 0;
+    padding: 30px;
 }
 
 .title{
