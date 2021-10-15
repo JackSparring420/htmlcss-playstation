@@ -58,6 +58,7 @@ header .navbar-light .navbar-nav .nav-link {
 
 header button:hover {
     border: solid 2px white !important;
+    background-color: #3d4042;
 }
 
 header .dropdown {
