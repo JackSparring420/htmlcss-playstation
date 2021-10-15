@@ -420,6 +420,11 @@ footer a {
 
     .nav-button {
         width: 20vw;
+        margin-left: 0;
+    }
+
+    #container-button-nav {
+        margin: 0;
     }
 
     #follow .row {
